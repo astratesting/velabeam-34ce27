@@ -1,0 +1,50 @@
+:root {
+  --ivory: #F5F1E8;
+  --charcoal: #1A1A1C;
+  --gold: #B8956A;
+  --burgundy: #6B2737;
+  --mist: #E8E2D5;
+  --fog: #9A958A;
+  --ink: #0E0E10;
+
+  --gold-hover: #A3845D;
+  --burgundy-hover: #5A1F2D;
+  --gold-light: rgba(184, 149, 106, 0.1);
+  --burgundy-light: rgba(107, 39, 55, 0.1);
+
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+
+  --shadow-sm: 0 1px 2px rgba(10, 10, 10, 0.05);
+  --shadow-md: 0 4px 12px rgba(10, 10, 10, 0.08);
+  --shadow-lg: 0 12px 40px rgba(10, 10, 10, 0.12);
+
+  --sidebar-width: 240px;
+  --topbar-height: 56px;
+}
+
+@font-face {
+  font-family: 'Canela';
+  src: url('/fonts/Canela-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Canela';
+  src: url('/fonts/Canela-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Canela';
+  src: url('/fonts/Canela-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
